@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A beginner-friendly guide to building a well-structured, accessible, and SEO-optimized web page using only HTML5 semantic tags.">
+  <meta name="keywords" content="HTML5 semantic tags, web accessibility, SEO HTML tutorial, beginner web development, screen reader support, semantic HTML example">
+  <meta name="author" content="OKANGA">
+  <title>Welcome to My Accessible Web Page</title>
+</head>
+
+<body>
+  <header role="banner">
+    <h1>My Accessible and SEO-Friendly Web Page</h1>
+    <p>Your go-to example for clean HTML structure</p>
+  </header>
+
+  <nav role="navigation" aria-label="Main Navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>We are dedicated to building accessible and SEO-friendly websites using the power of semantic HTML5.</p>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article>
+        <h3>Web Accessibility Consulting</h3>
+        <p>We help ensure your website is usable by everyone, including people using assistive technologies.</p>
+      </article>
+      <article>
+        <h3>Semantic HTML Audits</h3>
+        <p>We analyze and improve your site's HTML structure for better SEO and maintainability.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        <p>Email: <a href="mailto:jeffersonmichael693@gmail.com">jeffersonmichael693@gmail.com</a></p>
+        <p>Phone: <a href="tel:0740361313">+254740361313</a></p>
+      </address>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 OKANGA. All rights reserved.</p>
+  </footer>
+</body>
+</html>
